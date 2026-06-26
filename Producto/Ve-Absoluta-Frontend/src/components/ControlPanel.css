@@ -1,0 +1,38 @@
+.control-panel {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.file-input {
+  color: #cbd5e1;
+}
+
+.upload-button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn-active {
+  background-color: #0ea5e9;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-active:hover {
+  background-color: #0284c7;
+}
+
+.btn-loading {
+  background-color: #475569;
+  color: #cbd5e1;
+  cursor: wait;
+}

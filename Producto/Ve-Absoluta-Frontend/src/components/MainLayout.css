@@ -1,0 +1,12 @@
+.layout-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #0b1121; /* Fondo principal un poco más oscuro que el menú */
+}
+
+.main-content {
+  margin-left: 260px; /* Deja el espacio exacto del Sidebar */
+  padding: 30px;
+  width: calc(100% - 260px);
+  min-height: 100vh;
+}

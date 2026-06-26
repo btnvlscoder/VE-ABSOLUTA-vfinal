@@ -1,0 +1,36 @@
+.breakdown-container {
+  padding: 20px;
+}
+
+.breakdown-empty {
+  padding: 20px;
+  color: #64748b;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.breakdown-title {
+  color: #38bdf8;
+  border-bottom: 1px solid #334155;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
+
+.box-container {
+  margin: 15px 0;
+  padding: 15px;
+  background-color: #0f172a;
+  border-radius: 8px;
+}
+
+.box-title {
+  margin: 0 0 5px 0;
+  color: #e2e8f0;
+  font-weight: bold;
+}
+
+.box-detail {
+  margin: 0;
+  color: #94a3b8;
+  line-height: 1.5;
+}

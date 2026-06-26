@@ -1,0 +1,73 @@
+.radar-container {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.radar-title {
+  text-align: center;
+  margin: 0 0 15px 0;
+  color: #f59e0b;
+  font-size: 1rem;
+}
+
+.radar-wrapper {
+  flex: 1;
+  width: 100%;
+  min-height: 300px;
+}
+
+/* Personalización del Tooltip de Recharts */
+.recharts-tooltip-wrapper {
+  outline: none;
+}
+
+.radar-interpretation {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgba(15, 23, 42, 0.6);
+  border-radius: 4px;
+  border-left: 4px solid #38bdf8; /* Default blue */
+}
+
+.radar-interpretation h4 {
+  margin: 0 0 0.5rem 0;
+  color: #e2e8f0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.875rem;
+  letter-spacing: 0.05em;
+}
+
+.radar-interpretation p {
+  margin: 0;
+  color: #94a3b8;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* Modificadores Dinámicos de Severidad */
+.radar-interpretation.status-seguro {
+  border-left-color: #22c55e; /* Verde */
+}
+.radar-interpretation.status-seguro h4 {
+  color: #4ade80;
+}
+
+.radar-interpretation.status-sospechoso {
+  border-left-color: #f59e0b; /* Naranja/Amarillo */
+}
+.radar-interpretation.status-sospechoso h4 {
+  color: #fbbf24;
+}
+
+.radar-interpretation.status-critico {
+  border-left-color: #ef4444; /* Rojo */
+}
+.radar-interpretation.status-critico h4 {
+  color: #f87171;
+}

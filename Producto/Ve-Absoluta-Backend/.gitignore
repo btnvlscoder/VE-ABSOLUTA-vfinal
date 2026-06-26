@@ -1,0 +1,49 @@
+# --- Directorios de Compilación y Kotlin ---
+.gradle/
+build/
+target/
+bin/
+out/
+.kotlin/
+
+# --- Archivos de configuración de IDEs ---
+.idea/
+.vscode/
+*.iws
+*.iml
+*.ipr
+.classpath
+.project
+.settings
+.factorypath
+
+# --- Específico de VE ABSOLUTA (Backend) ---
+/uploads/
+*.log
+.DS_Store
+HELP.md
+**/application.properties
+
+# --- SECCIÓN PYTHON E IA (CONSOLIDADA) ---
+
+# 1. Caché de Python
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+
+# 2. Entornos Virtuales
+**/venv/
+**/.venv/
+**/env/
+
+# 3. Datos y Modelos Pesados (Ignora carpetas y extensiones globales)
+**/datasets/
+**/models/
+*.pth
+*.safetensors
+
+subir_nube.py
+# Ignorar el script con la clave real
+ai_engine/subir_nube.py
+# Ignorar archivos de entorno
+.env
